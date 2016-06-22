@@ -1,0 +1,30 @@
+<!--campo email, campo password ng-submit="login()"-->
+<div class="container-fluid">
+  <div style="width:100%" class="class1">
+    <h1>Ingresar</h1>
+  </div>
+  <!--<div class="centrado">
+    <img src="assets/img/img_01.jpg" class="center-block" alt="Responsive image">
+  </div>-->
+  <div class="login-wrapper">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <form role="form" name"loginForm" ng-submit="login()" novalidate>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" class="form-control" ng-model="user.email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" name="password" class="form-control" ng-model="user.password">
+          </div>
+          <div class="form-group">
+            <button class="btn btn-primary" type="submit">Login</button>
+            <button type="button" class="btn btn-default">Cancelar</button>
+            <a class="btn btn-info" href="components/registro.html" role="button">Crear cuenta</a><br>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,103 @@
+<div class="container-fluid">
+  <div style="width:100%">
+    <h1 class="class1">Registrarse</h1>
+  </div>
+  <div class="centrado center-block myform">
+    <img src="../assets/img/img2.jpg" alt="Responsive image">
+  </div>
+  <div class="centrado">
+    <div class="row">
+      <form class="form-group">
+        <div class="row">
+          <div class="col-md-2 col-md-offset-3 text-right myform">
+            <label>Nombre completo:</label>
+          </div>
+        <div class="row">
+          <div class="col-md-2">
+            <input type="text" class="form-control center-block myform" id="fname">
+            <p class="help-block text-center">Nombres</p>
+          </div>
+          <div class="col-md-2">
+            <input type="text" class="form-control center-block myform" id=lname>
+            <p class="help-block text-center">Apellidos</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-3 text-right myform">
+            <label class="center-block" for="bday">Fecha de nacimiento:</label>
+          </div>
+          <div class="col-md-2">
+            <input type="datetime" class="form-control center-block myform" id=dbay placeholder="(AA/MM/DD)">
+          </div>
+          <div class="col-md-1 text-right myform">
+            <label for="gender">Género:</label>
+          </div>
+          <div class="col-md-1">
+            <select name="gender" class="form-control center-block myform">
+              <option value="male">M</Option>
+              <option value="female">F</Option>
+              <option value="other">NSNR</Option>
+            </Select>
+          </div>
+        </div><br>
+        <div class="row">
+          <div class="col-md-1 col-md-offset-5 text-right myform">
+            <label for="user">Usuario:</label>
+          </div>
+          <div class="col-md-2">
+            <input type="text" class="form-control center-block myform" id=user><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1 col-md-offset-5 text-right myform">
+            <label for="pswd">Contraseña:</label>
+          </div>
+          <div class="col-md-2">
+            <input type="password" class="form-control center-block myform" id=pswd><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-4 text-right myform">
+            <label for="pswd2">Repita la contraseña:</label>
+          </div>
+          <div class="col-md-2">
+            <input type="password" class="form-control center-block myform" id=pswd2><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1 col-md-offset-5 text-right myform">
+            <label for="email">Email:</label>
+          </div>
+          <div class="col-md-2">
+            <input type="email" class="form-control center-block myform" id="email">
+          </div>
+        </div>
+        <div class="row center-block">
+          <div class="col-md-12">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">Quiero recibir notificaciones por email<br>
+              </label>
+            </div>
+          </div>
+        </div><br>
+        <div class="row center-block">
+            <label class="radio-inline">
+              <input type="radio" name="Terminos" id="Acpt_Term" value="Si" checked>
+              Acepto los <strong><a href="Terminosycond.html">Términos y condiciones</a></strong>
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="Terminos" id="N_Acpt_term" value="No">
+              <u>NO</u> acepto los <strong><a href="Terminosycond.html">Términos y condiciones</a></strong>
+            </label>
+        </div>
+        <div class="row cener-block">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-primary">Registrarme</button>
+            <a href="../index.html" class="btn btn-default" role="button">Cancelar</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
